@@ -1,9 +1,12 @@
 var path = require('path');
 module.exports = {
-    entry: 'TODO',
+    entry: {
+        runtime: "./#TODO#",
+        backgroundRuntime: "./#TODO#",
+    },
     output: {
-          path: __dirname,
-          filename: 'TODO.js'
+          path: path.join(__dirname, "#TODO#"),
+          filename: "[name].js"
         },
     module: {
             loaders: [{

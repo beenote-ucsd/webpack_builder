@@ -22,7 +22,7 @@ module.exports = {
         }, 
         {
             test: /\.json$/,
-            loaders: 'json-loader'
+            loader: 'json-loader'
         },
         {
             test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,

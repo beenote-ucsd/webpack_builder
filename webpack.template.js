@@ -19,7 +19,12 @@ module.exports = {
         }, {
             test: /\.scss$/,
             loaders: ["style", "css", "sass"]
-        }, {
+        }, 
+        {
+            test: /\.json$/,
+            loaders: 'json-loader'
+        },
+        {
             test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
             loader: "file"
         }, {
